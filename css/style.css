@@ -14,8 +14,7 @@ h1 {
 }
 
 p {
-  text-align: left;
-  margin: 0;
+  text-align: center;
   text-transform: uppercase;
   font-size: 30pt;
   font-weight: 900;
@@ -35,6 +34,30 @@ p {
 	vertical-align: top;
 }
 
-#actor-form {
-  margin-top: -20%;
+.card {
+  margin-top: -35%;
+  margin-left: 10%;
+  width: 400px;
+  height: 40%;
+}
+
+.btn-primary {
+margin-top: 7%;
+margin-left: -52%; 
+position: absolute;
+}
+
+.card-img-top {
+  opacity: .50;
+}
+
+.card-text {
+  margin-top:-150%;
+  width: 65%;
+}
+
+.card2 {
+  margin-top: -29.5%;
+  margin-left: 60%;
+  background-color: white;
 }
