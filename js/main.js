@@ -30,10 +30,14 @@ $(document).ready(function() {
       "x-chmura-cors": accessKey
     }
   }).then(function(response) {
-    console.log(JSON.stringify(response));
+    // console.log(JSON.stringify(response));
+    for(var i = 0; i < response.length; i++) {
+      //if/else statement goes here
+    
+    }
   });
 
-
+  
   $(".btn.btn-primary").click(function() {
     event.preventDefault();
     $.ajax({
